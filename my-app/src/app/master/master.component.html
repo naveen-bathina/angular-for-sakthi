@@ -1,0 +1,8 @@
+<p class="heading">{{userName}} - {{counter}}</p>
+
+<input type="text" [placeholder]="userNamePlaceholder" [(ngModel)]="userName" >
+<p>{{userName.length}}</p>
+
+<button (click)="increment_click()" >Increment</button>
+
+<p> {{posts.title}}</p>
